@@ -90,6 +90,8 @@ int main(int argc, char** argv) {
 	GLinit(display_w, display_h);
 	//PhysicsInit();
 
+
+	//OTRA FUNCION A IMPLEMETAR EN MYREDNERCODE
 	//myInitCode();
 
 	
@@ -135,6 +137,8 @@ int main(int argc, char** argv) {
 		GLrender(currentTime);
 		
 		//double currentTime = (double) SDL_GetTicks() / 1000.0;
+		
+		//HAY QUE USAR ESTA FUNCION EN MY RENDER CODE PARA QUE HAGA COSAS
 		//myRenderCode(currentTime);
 		
 

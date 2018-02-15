@@ -28,6 +28,17 @@ namespace Cube {
 	void drawCube();
 }
 
+namespace MyFirstShader {
+	void myInitCode(void);
+	GLuint myShaderCompile();
+	void myCleanupCode();
+	void myRenderCode(double currentTime);
+
+	GLuint myRenderProgram;
+	GLuint myVAO;
+
+}
+
 
 
 
@@ -138,6 +149,16 @@ void GLrender(double currentTime) {
 	/*Box::drawCube();
 	Axis::drawAxis();
 	Cube::drawCube();*/
+
+	//Declaramos color rojo (RGBA)
+	const GLfloat red[] = { (float)sin(currentTime)*0.5, (float)cos(currentTime)*0.5, 0.0f, 1.0f };
+	
+	//En el buffer GL_COLOR, me pintas el valor red.
+		// fv al final de la función indican float y vector
+
+
+	glClearBufferfv(GL_COLOR, 0, red); 
+
 
 
 
@@ -988,3 +1009,49 @@ void main() {\n\
 
 
 }
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////MY FIRST SHADER
+namespace MyFirstShader {
+	//1. Define the shader source code
+
+	static const GLchar * vertex_shader_source[] =
+	{ 
+		"#version 330\n\
+		\n\
+		void main(){ \n\
+		gl_Position = vec4(0.0,0.0,0.5,1.0); \n\
+		"
+	};
+
+	//2. Compile and link the shaders
+
+	GLuint myshaderCompile() {
+
+	}
+
+
+	//3. Init function
+	void myInitCode() {
+
+	}
+
+
+	//4. Render function
+	void myRenderCode(double currentTime) {
+
+	}
+
+
+
+	//5. Cleanup function
+	void myCleanupCode() {
+
+	}
+}
+
+
