@@ -1,0 +1,7 @@
+﻿  render.cpp
+c:\users\odarriba\desktop\repo_infograf\infograf_p1_v2\code\src\render.cpp(148): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\odarriba\desktop\repo_infograf\infograf_p1_v2\code\src\render.cpp(149): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  GL_framework.vcxproj -> C:\Users\odarriba\Desktop\REPO_InfoGraf\InfoGraf_P1_v2\x64\Debug\GL_framework.exe
+  GL_framework.vcxproj -> C:\Users\odarriba\Desktop\REPO_InfoGraf\InfoGraf_P1_v2\x64\Debug\GL_framework.pdb (Partial PDB)
+  0 File(s) copied
+  0 File(s) copied
