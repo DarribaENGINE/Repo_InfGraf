@@ -1,7 +1,18 @@
-﻿  render.cpp
-c:\users\odarriba\desktop\repo_infograf\infograf_p1_v2\code\src\render.cpp(148): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\odarriba\desktop\repo_infograf\infograf_p1_v2\code\src\render.cpp(149): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  GL_framework.vcxproj -> C:\Users\odarriba\Desktop\REPO_InfoGraf\InfoGraf_P1_v2\x64\Debug\GL_framework.exe
-  GL_framework.vcxproj -> C:\Users\odarriba\Desktop\REPO_InfoGraf\InfoGraf_P1_v2\x64\Debug\GL_framework.pdb (Partial PDB)
+﻿  render_prims.cpp
+  render.cpp
+c:\users\ipardo\documents\github\repo_infgraf\infograf_p1_v2\code\src\render.cpp(1025): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\ipardo\documents\github\repo_infgraf\infograf_p1_v2\code\src\render.cpp(1044): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  physics.cpp
+  main.cpp
+  my_render_code.cpp
+  imgui_impl_sdl_gl3.cpp
+  imgui_draw.cpp
+  imgui_demo.cpp
+  imgui.cpp
+  Generating Code...
+  LINK : C:\Users\ipardo\Documents\GitHub\Repo_InfGraf\InfoGraf_P1_v2\x64\Debug\GL_framework.exe not found or not built by the last incremental link; performing full link
+     Creating library C:\Users\ipardo\Documents\GitHub\Repo_InfGraf\InfoGraf_P1_v2\x64\Debug\GL_framework.lib and object C:\Users\ipardo\Documents\GitHub\Repo_InfGraf\InfoGraf_P1_v2\x64\Debug\GL_framework.exp
+  GL_framework.vcxproj -> C:\Users\ipardo\Documents\GitHub\Repo_InfGraf\InfoGraf_P1_v2\x64\Debug\GL_framework.exe
+  GL_framework.vcxproj -> C:\Users\ipardo\Documents\GitHub\Repo_InfGraf\InfoGraf_P1_v2\x64\Debug\GL_framework.pdb (Partial PDB)
   0 File(s) copied
   0 File(s) copied
